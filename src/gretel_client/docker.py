@@ -32,7 +32,7 @@ from gretel_client.rest.api.opt_api import OptApi
 
 DEFAULT_GPU_CONFIG = DeviceRequest(count=-1, capabilities=[["gpu"]])
 
-CONTAINER_UTILS = "public.ecr.aws/f3l2x5a1/container-utils"
+CONTAINER_UTILS = "gretelai/container-utils"
 
 SYSTEM_CHECK = "system-check"
 GPU_SYSTEM_CHECK = "gpu-system-check"
